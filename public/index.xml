@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Sam Roska</title>
+    <link>https://samroska.dev/</link>
+    <description>Recent content in Home on Sam Roska</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://samroska.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forcing Visits to use SSL</title>
+      <link>https://samroska.dev/blog/helo/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>https://samroska.dev/blog/helo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

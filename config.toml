@@ -1,0 +1,68 @@
+title = "Sam Roska"
+baseURL = "https://samroska.dev/"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Tempe, AZ"
+favicon = "/favicon.ico"
+firstName = "Samantha"
+lastName = "Roska"
+profileImage = "img/TechChat.png"
+showEducation = true
+showExperience = true
+showOpenSource = false
+showProjects = true
+showPublications = false
+showBlog = true
+showQr = false
+showSkills = true
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/sroska"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/samroska/"
+name = "GitHub"
+
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
+
+[deployment]
+order = [".jpg$", ".gif$"]
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "mydeployment"
+
+URL = "s3://samroska.dev/public/"
+
+[[deployment.matchers]]
+# Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+# Set custom content type for /sitemap.xml
+pattern = "^sitemap\\.xml$"
+contentType = "application/xml"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true

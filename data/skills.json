@@ -1,0 +1,40 @@
+[
+  {
+    "grouping": "Languages and Frameworks",
+    "skills":[
+      {"name":"Java"},
+      {"name":"Spring Frameworks"},
+      {"name":"JavaScript"},
+      {"name":"React.js"},
+      {"name":"Python"},
+      {"name":"Clojure"}
+    ]
+  },
+  {
+    "grouping":"Data",
+    "skills":[
+      {"name":"Python"},
+      {"name":"Pandas"},
+      {"name":"Pyspark"},
+      {"name":"PostgreSQL"},
+      {"name":"Splunk"},
+      {"name":"Informatica"}
+    ]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"AWS","link":"https://aws.amazon.com"},
+          {"name": "Kubernetes", "link":"https://kubernetes.io/"}
+      ]
+  },
+  {
+    "grouping":"tooling",
+    "skills":[
+        {"name":"Terraform"},
+        {"name":"_"},
+        {"name":"_"}
+    ]
+  }
+]

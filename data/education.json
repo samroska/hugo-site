@@ -1,0 +1,21 @@
+[
+    {
+        "school":"University of Michigan - Ann Arbor",
+        "degree":"Master",
+        "major":"Applied Data Science",
+        "notes":"GPA: 3.5",
+        "range":"2022 - 2024"
+    },
+    {
+        "school":"Arizona State University",
+        "degree":"Bachelor of Science",
+        "major":"Computer Information Systems",
+        "range":"2010 - 2013"
+    },
+    {
+        "school":"Arizona State University",
+        "degree":"Bachelor of Arts",
+        "major":"Business Law",
+        "range":"2010 - 2013"
+    }
+]
