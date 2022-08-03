@@ -14,6 +14,6 @@ Full-stack Software Engineer with experience leveraging agile and DevOps across 
 
 I'm currently a part-time student at the University of Michigan studying Applied Data Science. My professional goal is to be a machine learning engineer and work within predictive analytics.
 
-My passion projects are focused on helping other women and young girl learn how to code. I learned 99% of my skills on the job and I like to share that knowledge. I co-created a learning program in 2017, with the mission to increase diversity at an annual hack day event, that was later adopted company-wide.
+My passion projects are focused on helping other women and young girls learn how to code. I learned 99% of my skills on the job and I like to share that knowledge. I co-created a learning program in 2017, with the mission to increase diversity at an annual hack day event, that was later adopted company-wide.
 
 I support all those who identify as a woman in STEM.

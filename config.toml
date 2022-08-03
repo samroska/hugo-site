@@ -8,11 +8,11 @@ PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Tempe, AZ"
+address = "Tempe, Arizona"
 favicon = "/favicon.ico"
 firstName = "Samantha"
 lastName = "Roska"
-profileImage = "img/TechChat.png"
+profileImage = "img/me.jpeg"
 showEducation = true
 showExperience = true
 showOpenSource = false
@@ -43,8 +43,6 @@ order = [".jpg$", ".gif$"]
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "mydeployment"
-
-URL = "s3://samroska.dev/public/"
 
 [[deployment.matchers]]
 # Cache static assets for 1 year.
